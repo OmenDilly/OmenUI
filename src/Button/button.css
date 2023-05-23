@@ -1,0 +1,25 @@
+:root {
+  --on-primary: rgb(173, 192, 255);
+  --radius: 10px;
+  --primary: rgb(44, 73, 166);
+  --primary-hover: rgb(34, 59, 140);
+}
+
+.btn {
+  text-decoration: none;
+  padding: .6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  border-radius: var(--radius);
+  transition: all .2s ease-in-out;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+}

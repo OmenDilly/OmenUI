@@ -1,0 +1,12 @@
+:root {
+  
+}
+
+.input {
+  text-decoration: none;
+  /* border-color: var(--primary); */
+}
+
+.input:hover, .input:active, .input:focus {
+  border-color: var(--primary);
+}
